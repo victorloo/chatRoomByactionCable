@@ -6,4 +6,5 @@ test:
 
 production:
   adapter: redis
-  url: <%= ENV["redis://rediscloud:q0fxpHBYYwPaLSqOiJdbIiedeuY2fGgR@redis-15172.c62.us-east-1-4.ec2.cloud.redislabs.com:15172"] %>
+  url: <%= ENV['REDISCLOUD_URL'] %>
+  channel_prefix: deploy_app_to_heroku_production
