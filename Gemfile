@@ -53,6 +53,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # WebSocket
-gem 'devise', '~> 4.4', '>= 4.4.3'
+gem 'devise', '~> 4.7'
 gem 'bootstrap', '~> 4.1', '>= 4.1.3'
 gem 'jquery-rails'
